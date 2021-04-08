@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Donate Cards</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <div class="first-container">
@@ -16,13 +17,13 @@
                 <p class="titleCss">How much do you want to donate?</p>
             </div>
             <div class="content-radio">
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 5.50</label>
                 </div>
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 16.50</label>
                 </div>
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 38.50</label>
                 </div>
             </div>
@@ -32,19 +33,27 @@
         </div>
     </div>
     <div class="second-container">
-
+        <div class="close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="content-title">
+            <p class="titleCss-second" style="text-align: center;">Feed a child for 3 days</p>
+            <p style="text-align: center;">NOK 16.50</p>
+        </div>
+        <div class="visa">
+            <img src="visa.png" alt="" width="20%" height="20%">
+        </div>
+        <div class="card-inf">
+            <input type="password" value="****4456" class="inputInf"/>
+            <input type="text" value="exp.11/2023" class="inputInf">
+        </div>
+        <p style="margin-left: 50px; font-weight: bold;">Use a new card</p>
+        <div class="content-button">
+            <button class="btn" style="width: 369px;margin-left: 50px;">Confirm donation</button>
+        </div>
+        <div class="footer">
+            <p>By making a donation, you agree to our non-refund policy for donations</p>
+        </div>
     </div>
-
-    <script>
-        const radioButtons = document.querySelectorAll("#radio");
-        for(let i=0;i<radioButtons.length;i++){
-            
-        }
-
-
-    </script>
-
-
-
 </body>
 </html>
