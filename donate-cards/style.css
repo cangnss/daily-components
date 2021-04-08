@@ -1,6 +1,8 @@
 body{
     background-color: #f1f1f1;
     font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 .first-container{
     width: 479px;
@@ -49,4 +51,59 @@ body{
     border-radius: 17px;
     background-color: #ffffff;
     border: 2px solid #bcbcbc;
+}
+.second-container{
+    width: 444px;
+    height: 601px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 25px 25px rgba(0,0,0,0.3));
+    background-color: #ffffff;
+    /* margin-top: 150px; */
+}
+.close{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.close .fas.fa-times{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.titleCss-second{
+    font-size: 22px;
+    color: #1a1b38;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.visa{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.card-inf{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    
+}
+.inputInf{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    font-family: 'Mulish', sans-serif;
+}
+.footer{
+    width: 284px;
+    height: 36px;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: bold;
 }
