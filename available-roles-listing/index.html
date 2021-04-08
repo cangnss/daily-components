@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Roles Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first-container">
+        <div class="main-content" id="mainContainer">
+            <div class="left-content">
+                <p class="left-content-title">Senior Product Designer</p>
+                <label class="labels">
+                    Product<input type="radio" class="radio-btn"/>
+                </label>
+                <label class="labels">
+                    Remote role<input type="radio" class="radio-btn"/>
+                </label>
+            </div>
+            <div class="right-content">
+                <button class="view-role" id="view-role-btn">
+                    View Role
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content" id="mainContainer">
+            <div class="left-content">
+                <p class="left-content-title">Senior Backend Engineer</p>
+                <label class="labels">
+                    Devops<input type="radio" class="radio-btn"/>
+                </label>
+                <label class="labels">
+                    Remote role<input type="radio" class="radio-btn"/>
+                </label>
+            </div>
+            <div class="right-content">
+                <button class="view-role" id="view-role-btn">
+                    View Role
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content" id="mainContainer">
+            <div class="left-content">
+                <p class="left-content-title">Product Designer</p>
+                <label class="labels">
+                    Product<input type="radio" class="radio-btn"/>
+                </label>
+                <label class="labels">
+                    Remote role
+                </label>
+            </div>
+            <div class="right-content">
+                <button class="view-role" id="view-role-btn">
+                    View Role
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="second-content">
+            <label class="second-labels" id="secondLabels">
+                Senior Backend Engineer
+            </label>
+            <label class="arrow">
+                <i class="fas fa-arrow-right" style="margin-left: 7px;"></i>
+            </label>
+        </div>
+        <div class="second-content">
+            <label class="second-labels" id="secondLabels">
+                Senior Product Designer
+            </label>
+            <label class="arrow">
+                <i class="fas fa-arrow-right" style="margin-left: 7px;"></i>
+            </label>
+        </div>
+        <div class="second-content">
+            <label class="second-labels" id="secondLabels">
+                Product Designer
+            </label>
+            <label class="arrow">
+                <i class="fas fa-arrow-right" style="margin-left: 7px;"></i>
+            </label>
+        </div>
+        <button class="view-role" id="view-role-btn" style="margin-left: 25px;">
+            View All Roles
+        </button>
+    </div>
+
+    
+    <script>
+        const buttons = document.querySelectorAll("#view-role-btn");
+        for(let i=0;i<buttons.length;i++){
+            buttons[i].addEventListener("mouseover",changeColor);
+            buttons[i].addEventListener("mouseout",changeOrjColor);
+            // buttons[i].addEventListener("mouseout",changeOrjColor);
+            function changeColor(){
+                buttons[i].style.background = "#111136";
+                buttons[i].style.color = "#ffffff";
+            }
+            function changeOrjColor(){
+                buttons[i].style.background = "#E2E9F7";
+                buttons[i].style.color = "#000000";
+            }
+        }
+
+        const labels = document.querySelectorAll("#secondLabels");
+        for(let i=0;i<labels.length;i++){
+            labels[i].parentElement.addEventListener("mouseover",changeColor);
+            labels[i].parentElement.addEventListener("mouseout",changeOrjColor);
+            // buttons[i].addEventListener("mouseout",changeOrjColor);
+            function changeColor(){
+                labels[i].parentElement.style.background = "#F0F3FA";
+                labels[i].parentElement.style.borderRadius = "15px";
+            }
+            function changeOrjColor(){
+                labels[i].parentElement.style.background = "#FFFFFF";
+            }
+        }
+        
+    </script>
+</body>
+</html>
