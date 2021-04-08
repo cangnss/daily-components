@@ -1,0 +1,66 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.main-container{
+    position: absolute;
+    width: 900px;
+    height: 497px;
+    left: 196px;
+    top: 151px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.headerText{
+    position: absolute;
+    font-weight: bold;
+    font-size: 28px;
+    left: 126px;
+    top: 70px;
+}
+input{
+    width: 31px;
+    height: 31px;
+}
+.col-1{
+    display: flex;
+    line-height: 20px; 
+    padding: 10px;
+    width: 333px;
+}
+input[type="checkbox"]:checked + div
+{
+    width: 333px;
+    border: 1px solid #ACACB2;
+    border-radius: 5px;
+    background-color:#ACACB2;
+}
+input[type="checkbox"]:checked + .col-1{
+    background-color: #ACACB2;
+}
+.footer{
+    position: absolute;
+    left: 134px;
+    top: 438px;
+}
+.footer-input{
+    width: 481px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ACACB2;
+    color: #ACACB2;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.btn{
+    width: 194px;
+    height: 80px;
+    background-color: #7C6CE4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    line-height: 22px;
+}

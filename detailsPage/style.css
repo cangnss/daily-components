@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    position: absolute;
+    width: 965px;
+    height: 657px;
+    background-color: #FFFFFF;
+}
+.left-box{
+    position: absolute;
+    width: 556px;
+    height: 398px;
+    left: 162px;
+    top: 116px;
+    background-color: #EBECF4;
+    display: flex;
+    flex-direction: row;
+}
+.right-box{
+    position: absolute;
+    left: 776px;
+    top: 147px;
+    display: flex;
+    flex-direction: column;
+}
+.right-box-top{
+    width: 173px;
+    height: 86px;
+}
+.right-box-bottom{
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    top: 150px; 
+}
+.close-link{
+    position: absolute;
+    left: 510px;
+    top: 50px; 
+}
+.left-link-content{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.inputs{
+    font-size: 18px;
+    width: 422px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+}
+.fav{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding:5px 5px;
+}
+.social-media{
+    border: 1px solid #ACACAC;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px;
+    padding:5px 5px;
+}
+.footer{
+    position: absolute;
+    width: 319px;
+    height: 80px;
+    left: 187px;
+    top: 515px;
+}
+.footer-hashtag{
+    display: flex;
+    justify-content: space-around;
+}
