@@ -17,13 +17,13 @@
                 <p class="titleCss">How much do you want to donate?</p>
             </div>
             <div class="content-radio">
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 5.50</label>
                 </div>
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 16.50</label>
                 </div>
-                <div class="radios">
+                <div class="radios" id="radios">
                     <input type="radio" class="radio" id="radio"/><label for="radio" class="labels"><b>Feed a child for 1 days</b><br>NOK 38.50</label>
                 </div>
             </div>
@@ -55,15 +55,5 @@
             <p>By making a donation, you agree to our non-refund policy for donations</p>
         </div>
     </div>
-
-    <script>
-        const radioButtons = document.querySelectorAll("#radio");
-        for(var i=0;i<radioButtons.length;i++){
-            radioButtons[i].style.border = "2px solid black";
-        }
-    </script>
-
-
-
 </body>
 </html>
