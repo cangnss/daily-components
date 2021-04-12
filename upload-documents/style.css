@@ -1,0 +1,119 @@
+body{
+    background-color: #09043c;
+    font-family: 'Ubuntu', sans-serif;
+}
+.upload-text{
+    position: absolute;
+    left: 400px;
+    top: 70px;
+    width: 708px;
+    height: 354px;
+    border-radius: 15px;
+    background-color: #1c174d;
+}
+.upload-photo{
+    position: absolute;
+    display: flex;
+    left: 850px;
+    top: 320px;
+    width: 708px;
+    height: 488px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 33px 14.5px rgba(7,2,52,0.47));
+    background-color: #1c174d;
+}
+.upload-text-title{
+    margin-top: 50px;
+    font-size: 22px;
+    color: #e0e0e0;
+    font-weight: bold;
+    text-align: center;
+}
+.upload-text-subtitle{
+    font-size: 18px;
+    color: #e0e0e0;
+    text-align: center;
+}
+.upload-text-drop{
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    width: 369px;
+    height: 130px;
+    border-radius: 31px;
+    border: 1px solid #383271;
+}
+.browse-btn{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 148px;
+    height: 47px;
+    border-radius: 11px;
+    font-size: 16px;
+    border: none;
+    background-color: #6248f4;
+    color: white;
+}
+.browse-btn-subtitle{
+    margin-top: 90px;
+    font-size: 16px;
+    color: #5e598d;
+    text-align: center;
+}
+
+.photo{
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.upload-photo-information{
+    margin-left: 50px;
+    margin-top: 37px;
+}
+.information-input{
+    width: 287px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #1c174d;
+    border: 1px solid #383271;
+    padding: 15px 15px;
+    font-size: 14px;
+}
+.upload-photo-title{
+    font-size: 16px;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+.tags{
+    display: flex;
+    background-color:#1c174d;
+    border: 1px solid #383271;
+    border-radius: 5px;
+    width: 287px;
+    height: 75px;
+}
+.tag-labels{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 99px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #09043c;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.upload-photo-btn{
+    margin-top: 15px;
+    width: 287px;
+    height: 47px;
+    border: none;
+    border-radius: 11px;
+    background-color: #6248f4;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
