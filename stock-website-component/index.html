@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Website Components</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="first-card">
+        <div class="first-card-img">
+        </div>
+        <div class="first-card-text">
+            <h3>Freebies of the day</h3>
+            <h2 style="line-height: 0px;font-weight: lighter;">Free travel related photos</h2>
+        </div>            
+        <button class="first-card-button">Check them out</button>
+    </div>
+    <div class="second-card">
+        <div class="second-card-text">
+            <h2><b>Community</b></h2>
+        </div>
+        <div class="second-card-content">
+            <div>
+                <i class="fas fa-search-dollar"></i><h3 class="second-card-content-text">Sponsors</h3>
+                <p class="second-card-paragraph">List of our donations to open source.</p>
+            </div>
+            <div>
+                <i class="fas fa-envelope-open"></i><h3 class="second-card-content-text2">Requests</h3>
+                <p class="second-card-paragraph">If you're missing something, we'll create it for you.</p>
+            </div>
+            <div>
+                <i class="fas fa-paint-brush"></i><h3 class="second-card-content-text3">Submit your art</h3>
+                <p class="second-card-paragraph">Have something to give away?<a href="">Join the club!</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="third-card">
+        <div class="third-card-content">
+            <img src="search.png" class="search-img" alt="" width="50px" height="50px">
+            <input type="text" class="third-card-input" placeholder="Search"/>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Vector</a>
+                  <a href="#">Photos</a>
+                  <a href="#">Icons</a>
+                  <a href="#">Music</a>
+                </div>
+              </div>
+        </div>
+        <div class="third-card-text">
+            <p style="margin-left: 50px;">Popular searches <a href="#">portrait</a>,<a href="#">technology</a>,<a href="#">flowers</a></p>
+        </div>
+    </div>
+
+
+    <script>
+       
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+</body>
+</html>
