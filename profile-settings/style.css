@@ -1,0 +1,155 @@
+body{
+    background-image: linear-gradient(135deg, #f9faff 0%, #f1f3ff 100%);
+    font-family: 'Titillium Web', sans-serif;
+}
+.circle-middle{
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+    background-color: #5b33de;
+}
+.circle-big{
+    position: absolute;
+    top: 370px;
+    left: 700px;
+    width: 387px;
+    height: 387px;
+    border-radius: 193px;
+    background-color: #5b33de;
+}
+.circle-small{
+    position: absolute;
+    top: 260px;
+    left:1500px;
+    width: 122px;
+    height: 122px;
+    border-radius: 61px;
+    background-color: #5b33de;
+}
+.information-box{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 571px;
+    height: 541px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 40px 25px rgba(91,51,222,0.04));
+    background-color: #ffffff;
+}
+.information-box-text-title{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 305px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #232532;
+    font-weight: 700;
+}
+.information-box-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.information-box-labels{
+    font-size: 16px;
+    color: #232532;
+    width: 179px;
+    height: 53px;
+    border-radius: 19px;
+    background-color: #f6f7ff;
+    border: 1px solid #ccd0ee;
+    margin: 5px;
+}
+.i-plus{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.information-box-finally{
+    position: absolute;
+    top: 450px;
+    margin-left: 30px;
+}
+.address-box{
+    position: absolute;
+    top: 300px;
+    left: 970px;
+    width: 630px;
+    height: 501px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 40px 25px rgba(91,51,222,0.04));
+    background-color: #ffffff;
+}
+.address-box-text-title{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 305px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #232532;
+    font-weight: 700;
+}
+.address-box-content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.first-address-card{
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    height: 276px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccd0ee;
+    padding: 10px 20px;
+}
+.address-btn{
+    width: 204px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #5b33de;
+    font-size: 16px;
+    color: #5b33de;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.second-address-card{
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    height: 276px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccd0ee;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.second-address-label{
+    width: 180px;
+    height: 29px;
+    border-radius: 15px;
+    background-color: #f6f7ff;
+    border: 1px solid #ccd0ee;
+    padding-left: 5px;
+    font-style: italic;
+    margin-top: 50px;
+}
+.second-address-btn{
+    border: none;
+    width: 204px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #5b33de;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 82px;
+
+}
