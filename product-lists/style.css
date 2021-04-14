@@ -1,0 +1,200 @@
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+.custom-select-wrapper select {
+    display: none;
+}
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+.custom-select-trigger {
+    position: relative;
+    display: block;
+    width: 170px;
+    padding: 0 84px 0 22px;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    line-height: 50px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:20px;
+    border: 1px solid #5f5f5f;
+    transition: all 0.3s;
+}
+
+.custom-select-trigger:hover {
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px; height: 10px;
+    top: 50%; right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all 0.4s ease-in-out;
+    transform-origin: 50% 0;
+}
+.custom-select.opened .custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%);
+}
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%; left: 0; right: 0;
+    margin: 15px 0;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0,0,0,.07);
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    margin-left: 20px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+}
+.custom-select.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+.custom-options:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 100%; right: 25px;
+    width: 7px; height: 7px;
+    margin-bottom: -4px;
+    border-top: 1px solid #b5b5b5;
+    border-left: 1px solid #b5b5b5;
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all 0.4s ease-in-out;
+}
+.option-hover:before {
+    background: white;
+}
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #b5b5b5;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    line-height: 47px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+.custom-option:hover,
+.custom-option.selection {
+    background: white;
+}
+.browse-collections{
+    position: absolute;
+    left: 650px;
+    top: 50px;
+}
+.browse-collections-title{
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+    
+}
+.search-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 429px;
+    height: 408px;
+    left: 141px;
+    top: 383px;
+    background: linear-gradient(120.38deg, #F8F2FA 1.41%, #F9FAF2 100%);
+    border-radius: 5px;
+}
+.search-card-div-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 180px;
+    top: 50px;
+    width: 80.2px;
+    height: 78.34px;
+    background-color: white;
+    border-radius: 50%;
+}
+.search-card-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.search-card-img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px 0px 10px 10px;
+
+}
+.search-card-p{
+    width: 328px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 50px;
+}
+.search-card-btn{
+    background: #0C1727;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    width: 226px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 52px 102px 50px 101px;
+}
+.browser-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 429px;
+    height: 408px;
+    left: 621px;
+    top: 383px;
+    background: linear-gradient(120.38deg, #F8F2FA 1.41%, #F9FAF2 100%);
+    border-radius: 5px;
+}
+.maps-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 429px;
+    height: 408px;
+    left: 1093px;
+    top: 383px;
+    background: linear-gradient(120.38deg, #F8F2FA 1.41%, #F9FAF2 100%);
+    border-radius: 5px;
+}
