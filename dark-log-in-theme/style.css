@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-container{
+    background:url('./space.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 700px;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.left-col{
+    margin-top: 40px;
+    width: 434px;
+    height: 621px;
+    border-radius: 10px;
+    background-color: #080808;
+    color: white;
+    padding: 80px 30px 0px 30px;
+}
+.left-col-btn{
+    margin-top: 30px;
+    width: 324px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: #ffffff;
+    font-weight: 600;
+}
+.left-col-btn-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-col-btn-content p{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hr{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.hr::before,
+.hr::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ffffff;
+}
+.hr:not(:empty)::before{
+    margin-right: .25em;
+}
+.hr:not(:empty)::after{
+    margin-left: .25em;
+}
+.email-div{
+    margin-top: 15px;
+}
+.email-div h4{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.email-input{
+    margin:15px 0px 15px 0px;
+    width: 324px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.32);
+    padding: 10px 20px;
+}
+
+.email-button{
+    margin:15px 0px 15px 0px;
+    width: 324px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.sign-up-div{
+    margin:60px 0px 15px 0px;
+}
+.sign-up-div p{
+    color: white;
+    font-size: 16px;
+}
+.right-col{
+    background:transparent;
+    position: relative;
+    top: 400px;
+}
+.right-col-title{
+    width: 329px;
+    height: 66px;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.right-col-subtitle{
+    margin-top: 40px;
+    width: 329px;
+    height: 80px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
