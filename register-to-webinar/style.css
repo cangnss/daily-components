@@ -1,0 +1,124 @@
+body{
+    background: #23252F;
+    color: white;
+}
+
+.right-container{
+    margin-left: 190px;
+    background: #2B2D38;
+}
+.content-top{
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.content-top p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.content-top-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+}
+.content-middle h3{
+    margin: 0px 0px 40px 50px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 42px;
+}
+.content-middle div{
+    margin-bottom: 20px;
+}
+.content-middle div input{
+    width: 261px;
+    height: 60px;
+    background: #23252F;
+    border: 1px solid #464856;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+.text-area-inp{
+    width: 547px;
+    height: 118px;
+    background: #23252F;
+    border: 1px solid #464856;
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+.cm-content-title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0px;
+}
+.content-footer{
+    margin-left: 50px;
+}
+.cf-checkbox{
+    width: 24px;
+    height: 24px;
+    background-color: #23252F;
+    border: 1px solid #464856;
+    box-sizing: border-box;
+}
+.register-btn{
+    width: 289px;
+    height: 74px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    border: none;
+}
+.share-content{
+    margin:100px 536px 200px 66px;
+}
+.share-content p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.guests-content{
+    margin-left: 96px;
+}
+.guests-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+.guest-img{
+    border-radius: 50%;
+}
+.guest-name{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.guest-inf{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.hosted-content{
+    margin-left: 96px;
+}
