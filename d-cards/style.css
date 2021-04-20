@@ -1,0 +1,131 @@
+body{
+    background: #EDF1FD;
+    font-family: 'Open Sans', sans-serif;
+}
+.left-container{
+    position: absolute;
+    width: 672px;
+    height: 358px;
+    left: 125px;
+    top: 27px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 50px 20px 50px;
+}
+.right-container{
+    position: absolute;
+    width: 672px;
+    height: 456px;
+    left: 663px;
+    top: 266px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 25px;
+}
+.black-circle{
+    position: absolute;
+    width: 388px;
+    height: 318px;
+    left: 564px;
+    top: 192px;
+
+    background: #000000;
+    border-radius: 159px;
+}
+.lc-close{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 685px;
+    top: 37px;
+    background: #E9E9E9;
+    border-radius: 50%;
+}
+.lc-title{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.lc-subtitle{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.lc-btn{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    line-height: 28px;
+    border: none;
+    width: 177px;
+    height: 59px;
+    background: #000000;
+    border-radius: 55px;
+    margin-top: 100px;
+}
+.rc-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.rc-subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+}
+.rc-content{
+    margin-left: 100px;
+}
+.rc-footer{
+    margin-left: 100px;
+}
+.rc-content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+.rc-input{
+    width: 428px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #D9DDF1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+}
+.rc-footer a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+}
+.rc-footer-btn{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 45px;
+    color: white;
+    width: 177px;
+    height: 59px;
+    background: #000000;
+    border-radius: 55px;
+    border: none;
+    margin:0px 50px 0px 0px;
+}
