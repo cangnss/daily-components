@@ -89,3 +89,16 @@ body{
     font-weight: bold;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+.guest{
+    width: 58px;
+    height: 29px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e9ebf9;
+    font-size: 14px;
+    color: #56596e;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
