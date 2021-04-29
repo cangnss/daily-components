@@ -1,0 +1,121 @@
+body{
+    background-color: #18152b;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.first-card{
+    margin-left: 100px;
+    padding-top: 100px;
+    width: 459px;
+    height: 620px;
+    border-radius: 15px;
+    background-color: #211e37;
+}
+.fc-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fc-top h2{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.fc-top p{
+    width: 291px;
+    height: 46px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+.fc-middle{
+    margin: 0px 0px 30px 50px;
+}
+.fc-middle p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 0px;
+}
+.fc-input{
+    width: 339px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #211e37;
+    border: 1px solid #484270;
+    margin-bottom: 20px;
+}
+.fc-button{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 339px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #7360ff;
+    border: none;
+}
+.fc-footer p{
+    margin-left: 50px;
+    width: 333px;
+    height: 40px;
+    font-size: 16px;
+    color: #BCBBC6;
+    text-align: center;
+}
+.second-card{
+    position: absolute;
+    left: 580px;
+    top: 220px;
+    width: 794px;
+    height: 503px;
+    border-radius: 15px;
+    background-color: #211e37;
+}
+.sc-top{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.sc-top h2{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+}
+.sc-top p{
+    width: 341px;
+    height: 56px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.sc-middle{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.sc-middle p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 0px;
+}
+.sc-button{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 215px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #7360ff;
+}
+.sc-footer{
+    margin-left: 50px;
+    width: 433px;
+    height: 40px;
+    font-size: 16px;
+    color: #BCBBC6;
+}
