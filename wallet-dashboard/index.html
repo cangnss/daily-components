@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row left-row">
+            <div class="col lr-top">
+                <label class="lr-top-i"><i class="fas fa-wallet fa-2x"></i></label>
+                <h2>Dompetku</h2>
+            </div>
+            <div class="col lr-middle">
+                <ul class="lr-middle-ul">
+                    <li><i class="fas fa-home fa-2x"></i><span>Dashboard</span></li>
+                    <li><i class="fas fa-signal fa-2x"></i><span>Statistic</span></li>
+                    <li><i class="fas fa-envelope fa-2x"></i><span>Mail</span></li>
+                    <li><i class="fas fa-comment-dots fa-2x"></i><span>Message</span></li>
+                    <li><i class="fas fa-user-alt fa-2x"></i><span>Profile</span></li>
+                </ul>
+            </div>
+            <div class="col lr-footer">
+                <img src="img/2107.png" class="img-fluid lr-footer-img"/>
+                <button class="lr-footer-btn">Get Premium</button>
+            </div>
+        </div>
+        <div class="row right-row">
+            <div class="col-8 right-row-leftcol">
+                <div class="dashboard">
+                    <h1>Dashboard</h1>
+                    <div class="search">
+                        <i class="fas fa-search fa-3x"></i>
+                        <input type="text" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="first-card">
+                        <div class="first-card-name" style="display: flex;">
+                            <div class="col-9">
+                                <p>Name</p>
+                                <h4 style="color: white;">Ali Can Güneş</h4>
+                            </div>
+                            <div class="col-3">
+                                <label class="fc-top-i"><i class="fas fa-life-ring fa-2x"></i></label>
+                            </div>
+                        </div>
+                        <div class="first-card-info">
+                            <label>....</label>
+                            <label>....</label>
+                            <label>....</label>
+                            <label>2600</label>
+                        </div>
+                        <div class="first-card-footer">
+                            <p>Balance</p>
+                            <h2>Rp. 10.500.000</h2>
+                        </div>
+                    </div>
+                    <div class="second-card">
+                        <div class="second-card-name" style="display: flex;">
+                            <div class="col-9">
+                                <p>Name</p>
+                                <h4 style="color: white;">Ceren Güneş</h4>
+                            </div>
+                            <div class="col-3" style="margin-top: 10px;">
+                                <label class="sc-top-i"><i class="fas fa-wallet fa-2x"></i></label>
+                            </div>
+                        </div>
+                        <div class="second-card-info">
+                            <label>....</label>
+                            <label>....</label>
+                            <label>....</label>
+                            <label>2600</label>
+                        </div>
+                        <div class="second-card-footer">
+                            <p>Balance</p>
+                            <h2>Rp. 2.400.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <div id="chart">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 right-row-rightcol">
+                <div class="rrr-top">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <i class="fas fa-bell fa-3x" style="float: right;"></i>
+                </div>
+                <div class="rrr-photo">
+                    <img src="img/person.jpg" class="img-fluid rrr-img">
+                    <div class="rrr-photo-content">
+                        <div class="col">
+                            <label><i class="fas fa-arrow-up fa-2x"></i></label>
+                            <p>Transfer</p>
+                        </div>
+                        <div class="col">
+                            <label><i class="fas fa-arrow-down fa-2x"></i></label>
+                            <p>Request</p>
+                        </div>
+                        <div class="col">
+                            <label><i class="fas fa-id-card fa-2x"></i></label>
+                            <p>Top Up</p>
+                        </div>
+                        <div class="col">
+                            <label><i class="fas fa-file-invoice fa-2x"></i></label>
+                            <p>Bill</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rrr-friends">
+                    <h4>Your Friend</h4>
+                    <img src="img/first-person.jpg" class="img-fluid rrr-friend-img">
+                    <img src="img/second-person.jpg" class="img-fluid rrr-friend-img">
+                    <img src="img/third-person.jpg" class="img-fluid rrr-friend-img">
+                    <img src="img/fourt-person.jpg" class="img-fluid rrr-friend-img">
+                </div>
+                <div class="rrr-last-activity">
+                    <h4>Last Activity</h4>
+                    <div class="row transfer">
+                        <div class="col">
+                            <label><i class="fas fa-arrow-up fa-3x"></i></label>
+                        </div>
+                        <div class="col">
+                            <h4>Transfer</h4>
+                            <p>Today</p>
+                        </div>
+                        <div class="col gain">
+                            <p>-Rp.600K</p>
+                        </div>
+                    </div>
+                    <div class="row paypal">
+                        <div class="col">
+                            <label><i class="fab fa-paypal fa-3x"></i></label>
+                        </div>
+                        <div class="col">
+                            <h4>Paypal Income</h4>
+                            <p>Today</p>
+                        </div>
+                        <div class="col gain">
+                            <p>+Rp.500K</p>
+                        </div>
+                    </div>
+                    <div class="row naafi">
+                        <div class="col">
+                            <label><i class="fas fa-arrow-down fa-3x"></i></label>
+                        </div>
+                        <div class="col">
+                            <h4>Form Naafi</h4>
+                            <p>Today</p>
+                        </div>
+                        <div class="col gain">
+                            <p>+Rp.900K</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
