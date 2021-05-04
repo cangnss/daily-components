@@ -39,5 +39,5 @@ body{
     transition: transform .2s;
 }
 .content:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
