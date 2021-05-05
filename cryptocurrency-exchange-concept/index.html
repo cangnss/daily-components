@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 shadow-lg left-menu">
+                <ul class="me-3">
+                    <li class="mb-4"><i class="fas fa-home fa-2x"></i><span class="ms-3 fs-5 fw-bold">HOME</span></li>
+                    <li class="mb-4"><i class="fas fa-exchange-alt fa-2x"></i><span class="ms-3 fs-5 fw-bold">EXAMINE</span></li>
+                    <li class="mb-4"><i class="fas fa-sort-amount-up-alt fa-2x"></i><span class="ms-3 fs-5 fw-bold">ORDERS</span></li>
+                    <li class="mb-4"><i class="fas fa-user-circle fa-2x"></i><span class="ms-1 fs-5 fw-bold">ACCOUNTS</span></li>
+                    <li class="mb-4"><i class="fas fa-cog fa-2x"></i><span class="ms-3 fs-5 fw-bold">SETTINGS</span></li>
+                    <li class="mb-4"><i class="fas fa-headset fa-2x"></i><span class="ms-3 fs-5 fw-bold">SUPPORT</span></li>
+                </ul>
+            </div>
+            <div class="col-9 mt-5">
+                <div class="row d-flex flex-wrap ms-3">
+                    <div class="col-6 shadow-lg pt-5 ps-5 pe-5 profit"><!--Your total profit-->
+                        <span class="fs-3 fw-bold">Your Total Profit</span>
+                        <p class="fs-4 fw-bold">$9,184.00</p>
+                        <div id="chart" class="w-100 p-1">
+                        </div>
+                    </div>
+                    <div class="col-5 shadow-lg ms-5 pt-5 ps-5 pe-5 favorites"><!--Favorites-->
+                        <span class="fs-3 fw-bold">Favorites</span>
+                        <table class="table mt-2">
+                            <thead class="fw-bold fs-6">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Coin</th>
+                                <th scope="col">%Change</th>
+                                <th scope="col">Price Graph</th>
+                              </tr>
+                            </thead>
+                            <tbody class="fw-bold fs-6">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><i class="fab fa-btc" style="color: orange;"></i><span class="ms-2">BTC</span></td>
+                                <td>1.36<i class="fas fa-arrow-down ms-2" style="color: red;"></i></td>
+                                <td><img src="wave-line.png" class="img-fluid ms-3" width="60px" height="60px"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><i class="fab fa-ethereum" style="color: black;"></i><span class="ms-2">ETM</span></td>
+                                <td>3.45<i class="fas fa-arrow-up ms-2" style="color: green;"></i></td>
+                                <td><img src="wave-line.png" class="img-fluid ms-3" width="60px" height="60px"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><i class="fab fa-ethereum" style="color: green;"></i><span class="ms-2">ETC</span></td>
+                                <td>8.64<i class="fas fa-arrow-up ms-2" style="color: green;"></i></td>
+                                <td><img src="wave-line.png" class="img-fluid ms-3" width="60px" height="60px"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><i class="fas fa-hryvnia" style="color: gray;"></i><span class="ms-2">EOS</span></td>
+                                <td>5.75<i class="fas fa-arrow-down ms-2" style="color: red;"></i></td>
+                                <td><img src="wave-line.png" class="img-fluid ms-3" width="60px" height="60px"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><i class="fab fa-btc" style="color: blue;"></i><span class="ms-2">BTS</span></td>
+                                <td>9.31<i class="fas fa-arrow-down ms-2" style="color: red;"></i></td>
+                                <td><img src="wave-line.png" class="img-fluid ms-3" width="60px" height="60px"/></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <!-- <div class="col-3 shadow-lg ms-3 ratio"><Assets ratio
+                        <span class="fw-bold ps-2 pt-5 fs-3">Assets Ratio</span>
+                        <div class="pt-5" id="donut-chart">
+                        </div>
+                    </div> -->
+                    <div class="col-6 shadow-lg pt-5 ps-3 pe-3 mt-5 transaction"><!--Transaction record-->
+                        <span class="fw-bold fs-3">Transaction Record</span>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Currency</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">TXID</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Transfer In</td>
+                                <td>2018-04-01 23:39</td>
+                                <td class="fw-bold">BTC</td>
+                                <td class="fw-bold">+0.318</td>
+                                <td><i class="fas fa-clock" style="color: orange;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Withdrawal</td>
+                                <td>2018-03-31 12:15</td>
+                                <td class="fw-bold">EOS</td>
+                                <td class="fw-bold">+346.0</td>
+                                <td><i class="fas fa-check-circle" style="color: blue;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Depadif</td>
+                                <td>2018-03-30 16:58</td>
+                                <td class="fw-bold">BTS</td>
+                                <td class="fw-bold">+50.00</td>
+                                <td><i class="fas fa-check-circle" style="color: blue;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Withdrawal</td>
+                                <td>2018-03-25 07:39</td>
+                                <td class="fw-bold">ETH</td>
+                                <td class="fw-bold">+3.514</td>
+                                <td><i class="fas fa-check-circle" style="color: blue;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Transfer In</td>
+                                <td>2018-03-18 11:46</td>
+                                <td class="fw-bold">BTC</td>
+                                <td class="fw-bold">+8.764</td>
+                                <td><i class="fas fa-check-circle" style="color: blue;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Transfer In</td>
+                                <td>2018-03-12 19:03</td>
+                                <td class="fw-bold">BTC</td>
+                                <td class="fw-bold">+1.997</td>
+                                <td><i class="fas fa-check-circle" style="color: blue;"></i></td>
+                                <td><i class="fas fa-link"></i></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <div class="col-4 shadow-lg pt-3 ps-3 ms-5 mt-5 converter"><!--converter-->
+                        <span class="fw-bold fs-4">Converter</span>
+                        <div class="d-flex flex-row mt-3">
+                            <div class="col-4">
+                                <select class="form-select">
+                                    <option value="btc">BTC</option>
+                                    <option value="eth">ETH</option>
+                                    <option value="ets">ETS</option>
+                                    <option value="bts">BTS</option>
+                                </select>
+                                <select class="form-select mt-3">
+                                    <option value="btc">BTC</option>
+                                    <option value="eth" selected>ETH</option>
+                                    <option value="ets">ETS</option>
+                                    <option value="bts">BTS</option>
+                                </select>
+                            </div>
+                            <div class="col-4" style="margin-left: 50px;">
+                                <p class="fw-bold fs-6">0.386</p>
+                                <p class="fw-bold fs-6" style="margin-top: 35px;">2,641.47</p>
+                            </div>
+                        </div>
+                        <table class="table table-bordered border-primary ms-5 mt-3 fw-bold fs-5 d-flex calculator">
+                            <tr>
+                                <td class="w-100 p-4">1</td>
+                                <td class="w-100 p-4">2</td>
+                                <td class="w-100 p-4">3</td>
+                            </tr>
+                            <tr>
+                                <td class="w-100 p-4">4</td>
+                                <td class="w-100 p-4">5</td>
+                                <td class="w-100 p-4">6</td>
+                            </tr>
+                            <tr>
+                                <td class="w-100 p-4">7</td>
+                                <td class="w-100 p-4">8</td>
+                                <td class="w-100 p-4">9</td>
+                            </tr>
+                            <tr>
+                                <td class="w-100 p-4"> </td>
+                                <td class="w-100 p-4">0</td>
+                                <td class="w-100 p-4">C</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-6 mt-5 d-flex flex-row footer">
+                        <div class="col-3 shadow-lg w-100 p-5 latest"><!--latest news-->
+                            <span class="fw-bold fs-4">Latest News</span>
+                            <p class="mt-2"><i class="fab fa-twitter" style="color: blue;"></i><span class="ms-3 fw-bold">Ali Can Güneş</span></p>
+                            <p class="fs-6">These Are the Worst Performing Cryptocurrencies of 2018 - So Far <a href="#" class="fw-bold ">Full Text</a></p>
+                            <div class="icons d-flex justify-content-evenly">
+                                <i class="fas fa-share"></i>
+                                <i class="fas fa-comment"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="col-3 shadow-lg ms-5 w-100 p-3 messages"><!--messages-->
+                            <span class="fw-bold fs-4">Messages</span>
+                            <div class="d-flex flex-row">
+                                <div class="mt-3">
+                                    <img src="cangunes.jpg" class="img-fluid rounded-circle" width="75px" height="75px">
+                                </div>
+                                <div class="ms-3 mt-3">
+                                    <span class="fs-6"><span class="fw-bold">Ali Can Güneş:</span> It's hard not to feel so... <a href="#" class="fw-bold">Read now</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="chart.js"></script>
+</body>
+</html>

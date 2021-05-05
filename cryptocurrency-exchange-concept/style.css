@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.left-menu{
+    background-color: white;
+    padding-top: 200px !important;
+    min-width: 200px;
+}
+.left-menu ul{
+    list-style-type: none;
+}
+.left-menu ul li{
+    color: black;
+}
+.left-menu ul li:hover{
+    color: #1167b1;
+    border-right: 10px solid #1167b1;
+    border-radius: 2px;
+}
+#chart {
+    margin: 35px auto;
+}
+#donut-chart {
+    max-width: 350px;
+    margin: 35px auto;
+}
+.icons{
+    margin-left: 50px;
+}
