@@ -1,0 +1,98 @@
+body{
+    background-color: #E5E5E5 !important;
+}
+.main-container{
+    background-color: white;
+    width: 689px !important;
+    height: 585px !important;
+    border-radius: 10px;
+}
+.search-col{
+    position: relative;
+}
+.search-col i {
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+.search-input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.content div{
+    width:200px;
+    height:200px;
+}
+.property{
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+.home-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: purple !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cars{
+    border: 1px solid #8FBCFF;
+    border-radius: 5px;
+}
+.cars-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: #8FBCFF !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boat{
+    border: 1px solid #FF8FAA;
+    border-radius: 5px;
+}
+.boat-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: #FF8FAA !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bike{
+    border: 1px solid #A6CD74;
+    border-radius: 5px;
+}
+.bike-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: #A6CD74 !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket{
+    border: 1px solid #FCC18A;
+    border-radius: 5px;
+}
+.ticket-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: #FCC18A !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.economy{
+    border: 1px solid #6EDDDD;
+    border-radius: 5px;
+}
+.economy-rectangle{
+    width: 81px !important;
+    height: 9px !important;
+    border-radius: 10px;
+    background-color: #6EDDDD !important;
+    margin-left: auto;
+    margin-right: auto;
+}
