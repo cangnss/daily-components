@@ -1,0 +1,20 @@
+body{
+    background-color: #27264b !important;
+}
+.main-div{
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    background-color: #f8fafe;
+    border: 1px solid #979797;
+}
+.started-button{
+    width: 267px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #27264b;
+    text-align: center;
+    color: #433f63;
+   
+}
