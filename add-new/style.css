@@ -1,0 +1,21 @@
+body{
+    background-color: #f7f9fd !important;
+}
+#addNew{
+    width: 442px;
+    height: 496px;
+    border-radius: 6px;
+    filter: drop-shadow(0px 18px 15px rgba(52,87,220,0.37));
+    background-color: #ffffff;
+    margin-left: 400px !important;
+}
+#addNew .container .row .col-md-4{
+    width: 107px;
+    height: 94px;
+    margin: 10px;
+    background-color: #f7f9fd;
+    border-radius: 5px;
+}
+#addNew .container .row .col-md-4:hover{
+    border: 2.4px solid #b0c1ff;
+}
