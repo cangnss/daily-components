@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap");
+* {
+  font-family: 'Mulish', sans-serif; }
+
+body {
+  background-color: #202035;
+  padding: 50px; }
+
+.component {
+  position: relative; }
+  .component--help {
+    background-color: #1B1B30;
+    border-radius: 10px;
+    padding: 40px 50px; }
+    .component--help h5 {
+      font-size: 36px;
+      color: #bbbbd7; }
+    .component--help form i {
+      color: #454564; }
+    .component--help form input {
+      background: #2A2A42;
+      width: 755px;
+      height: 72px;
+      border-radius: 5px;
+      border: 1px solid #454564;
+      font-size: 18px;
+      padding-left: 30px; }
+  .component--topics {
+    position: relative;
+    top: 50px;
+    width: 307px;
+    height: 511px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #1b1b30; }
+    .component--topics h6 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #bbbbd7;
+      height: 0px;
+      margin-left: 35px; }
+    .component--topics ul {
+      list-style-type: none; }
+      .component--topics ul li {
+        color: #786cd5;
+        font-size: 16px;
+        line-height: 31px; }
+    .component--topics hr {
+      border-color: black; }
+  .component--topics-footer h3 {
+    color: #bbbbd7;
+    font-weight: 700; }
+  .component--topics-footer p {
+    width: 226px;
+    line-height: 24px;
+    color: #bbbbd7;
+    font-size: 16px; }
+  .component--topics-footer button {
+    width: 247px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #786cd5;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none; }
+  .component--content {
+    position: absolute;
+    top: 500px;
+    left: 500px; }
+    .component--content .first-div {
+      width: 735px;
+      height: 143px;
+      background-color: #1b1b30;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px; }
+      .component--content .first-div .col-left {
+        flex-direction: column;
+        padding: 10px 30px; }
+        .component--content .first-div .col-left span {
+          font-size: 24px;
+          color: #bbbbd7; }
+        .component--content .first-div .col-left p {
+          font-size: 18px;
+          color: #bbbbd7;
+          width: 543px; }
+      .component--content .first-div .col-right {
+        margin-top: 30px; }
+        .component--content .first-div .col-right div {
+          width: 103px;
+          height: 36px;
+          border-radius: 18px;
+          background-color: #8f1f3a; }
+          .component--content .first-div .col-right div p {
+            font-size: 16px;
+            color: #e86887;
+            text-align: center;
+            padding-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
