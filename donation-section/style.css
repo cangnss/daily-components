@@ -1,0 +1,55 @@
+body{
+    background-color: #21213b;
+    color: white;
+}
+#donationSection{
+    background-color: #2f2f4f;
+    border-radius: 15px;
+}
+#donationSection .container{
+    min-width: 600px;
+    min-height: 200px;
+}
+#donationSection .container .col-md-5 h3,
+#donationSection .container .col-md-5 p{
+    color: white;
+}
+.col-md-7 .text:hover{
+    width: 129px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #2f2f4f;
+}
+.col-md-7 .dollar-circle{
+    width: 71px;
+height: 39px;
+border-radius: 20px;
+background-color: #2f2f4f;
+border: 1px solid #21213b;
+}
+.col-md-7 .dollar-circle:hover{
+    background-color: white;
+    color: black;
+    width: 71px;
+    height: 39px;
+    font-weight: 700;
+}
+.name-input{
+    width: 444px;
+    height: 62px;
+    border-radius: 5px;
+    background-color: #2f2f4f;
+    border: 2px solid #21213b;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.donate-btn{
+    width: 231px;
+    height: 62px;
+    border-radius: 5px;
+    background-color: #1865f2;
+    color: white;
+    border: none;
+    font-size: 18px;
+}

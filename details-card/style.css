@@ -1,0 +1,23 @@
+body{
+    background-color: #E5E5E5 !important;
+}
+#main{
+    width: 1114px;
+    height: 566px;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.col-md-4 .box{
+    width: 62px;
+    height: 62px;
+    background-color: #DCFFEE;
+    border-radius: 5px;
+}
+.tag{
+    width: 97px;
+    height: 39px;
+    margin: 2px;
+    background-color: #EEF4FC;
+}

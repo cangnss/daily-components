@@ -1,0 +1,91 @@
+body{
+    background-color: #17213A;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    border: 1px solid #1B263E;
+    background-color: #1B263E;
+    border-radius: 5px;
+    width: 785px;
+    height: 1062px;
+    position: absolute;
+    left: 308px;
+    top: 119px;
+    
+}
+.sign-in-text{
+    position: absolute;
+    left: 550px;
+    top: 72px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.title{
+    position: absolute;
+    left: 181px;
+    top: 158px;
+    line-height: 25px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.subtitle{
+    position: absolute;
+    width: 400px;
+    left: 181px;
+    top: 210px;
+    line-height: 17px;
+    font-size: 17px;
+    color: white;
+}
+.main-form{
+    position: absolute;
+    left: 181px;
+    top: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.form-title{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-input{
+    width: 384px;
+    height: 92px;
+    border-radius: 5px;
+    border-color:#7E889D;
+    padding: 5px 10px;
+    color: #7E889D;
+    font-size: 18px;
+}
+.btn{
+    width:409px;
+    height: 67px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #DC768C;
+    background-color: #DC768C;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer{
+    position: absolute;
+    border: none;
+    border-color: #202E4E;
+    background-color:#202E4E;
+    border-radius: 5px;
+    margin-top: 20px;
+    left: 91px;
+    top: 900px;
+    width: 583px;
+    height: 111px;
+}
+.footer-text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="upload-text">
+        <p class="upload-text-title">Upload Photos and Videos</p>
+        <p class="upload-text-subtitle">We are glad you decided to join our cause!</p>
+        <div class="upload-text-drop">
+            <button class="browse-btn">Browse</button>
+            <p class="browse-btn-subtitle">or drag and drop</p>
+        </div>
+    </div>
+
+    <div class="upload-photo">
+        <div class="upload-photo-div">
+            <img src="flower.jpg" alt="" class="photo" width="280px" height="180px"/>
+        </div>
+        <div class="upload-photo-information">
+            <p class="upload-photo-title">Name your file</p>
+            <input type="text" class="information-input" placeholder="Please enter a name for the file"/>
+            <p class="upload-photo-title">Location(optional)</p>
+            <input type="text" class="information-input" placeholder="Eg. On a tree, in the car"/>
+            <p class="upload-photo-title">Tags(optional)</p>
+            <div class="tags">
+                <label for="flower" class="tag-labels">Flower<i class="fas fa-times" style="margin-left: 15px;margin-top:3px"></i></label>
+                <label for="yellow" class="tag-labels">Yellow<i class="fas fa-times" style="margin-left: 15px;margin-top:3px"></i></label>
+            </div>
+            <button class="upload-photo-btn">Upload</button>
+        </div>
+    </div>
+</body>
+</html>
