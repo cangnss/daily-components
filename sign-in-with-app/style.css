@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(127deg, #c793fc 0%, #898cd1 100%) !important;
+}
+#signIn{
+    width: 1055px;
+    height: 474px;
+    border-radius: 53px;
+    background-color: #ffffff;
+}
+hr.style-or {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-or:after {
+    content: "OR";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.emailInput{
+    width: 321px;
+    height: 63px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px solid #dcdbe5;
+    font-size: 18px;
+}
+.continue-button{
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 321px;
+    height: 63px;
+    border-radius: 5px;
+    background-image: linear-gradient(101deg, #a364e3 0%, #5a5eb4 100%);
+}
