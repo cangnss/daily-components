@@ -1,0 +1,33 @@
+body {
+  background-color: #eff0f8;
+  font-family: 'Open Sans', sans-serif !important; }
+
+#detailsCard {
+  width: 644px;
+  height: 523px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 21px 27px #bcc0df);
+  background-color: #ffffff;
+  margin-left: 25%;
+  margin-top: 5%; }
+  #detailsCard .col-md-3 p {
+    font-size: 24px;
+    margin-bottom: 30px; }
+  #detailsCard .rectangle {
+    width: 105px;
+    height: 62px;
+    border-radius: 5px;
+    background-color: #f7f8ff;
+    border: 1px solid #dadeff; }
+  #detailsCard .button-div button {
+    width: 200px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: #24bea1;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    float: left !important; }
+
+/*# sourceMappingURL=main.css.map */
