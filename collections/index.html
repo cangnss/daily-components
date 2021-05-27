@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="collections">
+        <div class="container">
+            <div class="row">
+                <div class="col-top">
+                    <span>Add <br/>to collection</span>
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+                <div class="col-middle">
+                    <div class="col-middle-row">
+                        <div class="col-middle-img">
+                            <img src="img/pricing-section.JPG" alt="">
+                        </div>
+                        <div class="col-middle-info">
+                            <label>Dashboards</label>
+                            <div>
+                                <p>24 items</p>
+                                <p class="right-p">Updated yesterday</p>
+                                <div id="check">
+                                    <i class="fas fa-check-circle fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-middle-row">
+                        <div class="col-middle-img">
+                            <img src="img/donation-section.JPG" alt="">
+                        </div>
+                        <div class="col-middle-info">
+                            <label>Authentication</label>
+                            <div>
+                                <p>7 items</p>
+                                <p class="right-p">Updated May 9,2021</p>
+                                <div id="check">
+                                    <i class="fas fa-check-circle fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-middle-row">
+                        <div class="col-middle-img">
+                            <img src="img/register-to-webinar.JPG" alt="">
+                        </div>
+                        <div class="col-middle-info">
+                            <label>UI Kit</label>
+                            <div>
+                                <p>9 items</p>
+                                <p class="right-p">Updated May 3,2021</p>
+                                <div id="check">
+                                    <i class="fas fa-check-circle fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-row">
+                <div class="col">
+                    <div>
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                    <p>Create new</p>
+                </div>
+                <div class="button-div">
+                    <button type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const checks = document.querySelectorAll('#check');
+
+        checks.forEach((check)=>{
+            check.addEventListener('click',(e)=>{
+                e.target.style.color = '#212499';
+            });
+        }); 
+    </script>
+</body>
+</html>

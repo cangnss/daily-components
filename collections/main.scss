@@ -1,0 +1,98 @@
+body {
+  background-color: #fcfcff;
+  font-family: "Poppins", sans-serif;
+}
+#collections {
+  width: 836px;
+  height: 876px;
+  border-radius: 15px;
+  background-color: wheat;
+  .row {
+    .col-top {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+      span {
+        font-size: 32px;
+        font-weight: 600;
+        color: #202142;
+      }
+    }
+    .col-middle {
+      .col-middle-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0px 0px 100px;
+        padding: 10px 20px;
+        &:hover {
+          background-color: #efefff;
+          border-radius: 15px;
+          margin: 50px 0px 0px 100px;
+          padding: 10px 20px;
+        }
+        .col-middle-img {
+          img {
+            width: 156px;
+            height: 108px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+          }
+        }
+        .col-middle-info {
+          margin-left: 10px;
+          label {
+            font-size: 22px;
+            font-weight: bold;
+          }
+          div {
+            display: flex;
+            .right-p {
+              text-align: center;
+              margin-left: 10px;
+            }
+            div {
+              margin-left: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-row {
+    margin: 20px 0px 20px 100px;
+    display: flex;
+    justify-content:space-around;
+    .col {
+      display: flex;
+      div {
+        width: 38px;
+        height: 38px;
+        background-color: #FEF5F8;
+        border-radius: 15px;
+        padding: 15px;
+        i {
+          color: #d93061;
+        }
+      }
+      p {
+        font-size: 22px;
+        font-weight: bold;
+        color: #d93061;
+        margin-left: 30px;
+      }
+    }
+    .button-div{
+        button{
+            width: 205px;
+            height: 63px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color:#BF87FD ;
+            border: none;
+        }
+    }
+  }
+}
