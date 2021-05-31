@@ -1,0 +1,120 @@
+body {
+  background-color: #c5c9e0;
+  font-family: 'Roboto', sans-serif;
+}
+#surveyPopUp {
+  width: 558px;
+  height: 402px;
+  background-color: #2c314b;
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  .container {
+    .col {
+      position: relative;
+      .close {
+        position: absolute;
+        left: 498px;
+        width: 61px;
+        height: 61px;
+        background-color: #4b5481;
+
+        i {
+          padding-left: 10px;
+          padding-top: 5px;
+        }
+      }
+    }
+    .col-text {
+      padding-top: 15%;
+      padding-left: 15%;
+      width: 250px;
+      color: white;
+      font-size: 24px;
+    }
+    .radios {
+      display: flex;
+      margin-left: 12%;
+      .first-radio {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        .fs-rd:after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #d1d3d1;
+          content: "";
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+        }
+        .fs-rd:checked::after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #ffa500;
+          content: "";
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+        }
+      }
+      .second-radio {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        .fs-rd2:after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #d1d3d1;
+          content: "";
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+        }
+        .fs-rd2:checked::after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #ffa500;
+          content: "";
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+        }
+      }
+    }
+    .buttons {
+      position: relative;
+      .next-btn {
+        width: 558px;
+        height: 75px;
+        color: #2c314b;
+        font-weight: bold;
+        font-size: 22px;
+        background-color: #f09653;
+        border: none;
+      }
+      span {
+        position: absolute;
+        top: 20px;
+        right: 220px;
+        color: #2c314b;
+      }
+    }
+  }
+}
