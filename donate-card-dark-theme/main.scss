@@ -1,0 +1,111 @@
+body {
+  background-color: #eff5fa;
+  font-family: "Open Sans", sans-serif;
+}
+
+#darkTheme {
+  .container {
+    display: flex;
+    .first-row {
+      display: flex;
+      flex-direction: column;
+      width: 430px;
+      height: 493px;
+      border-radius: 33px;
+      background-color: #151b29;
+      padding: 15px 30px;
+      h4 {
+        width: 248px;
+        height: 50px;
+        font-size: 32px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 20%;
+      }
+      p {
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        color: #fff;
+      }
+      input {
+        margin-left: 30%;
+        margin-bottom: 10%;
+        width: 159px;
+        height: 79px;
+        border-radius: 12px;
+        background-color: #0d1424;
+        border: 1px solid #505a71;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+      }
+      button {
+        width: 256px;
+        height: 94px;
+        border-radius: 14px;
+        background-color: #e9b64f;
+        margin-left: 20%;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #151b29;
+      }
+    }
+    .second-row {
+      width: 421px;
+      height: 762px;
+      border-radius: 33px;
+      background-color: #151b29;
+      margin-left: 10%;
+      padding-left: 5%;
+      h4 {
+        width: 248px;
+        height: 40px;
+        font-size: 32px;
+        color: #ffffff;
+        font-weight: 700;
+      }
+      p {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 10px;
+      }
+      .info {
+        margin-top: 50px;
+        div {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          margin-bottom: 20px;
+          label {
+            color: #fff;
+            font-size: 18px;
+          }
+          input {
+            width: 313px;
+            height: 79px;
+            border-radius: 12px;
+            background-color: #0d1424;
+            border: 1px solid #505a71;
+            font-size: 20px;
+            padding: 10px 20px;
+          }
+        }
+      }
+      button {
+        width: 311px;
+        height: 94px;
+        border-radius: 14px;
+        background-color: #e9b64f;
+        font-size: 20px;
+        font-weight: bold;
+        color: #151b29;
+        border: none;
+        margin-left: 5%;
+      }
+    }
+  }
+}

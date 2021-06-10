@@ -1,0 +1,96 @@
+body {
+  background-color: #eff5fa;
+  font-family: "Open Sans", sans-serif; }
+
+#darkTheme .container {
+  display: flex; }
+  #darkTheme .container .first-row {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 493px;
+    border-radius: 33px;
+    background-color: #151b29;
+    padding: 15px 30px; }
+    #darkTheme .container .first-row h4 {
+      width: 248px;
+      height: 50px;
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+      margin-left: 20%; }
+    #darkTheme .container .first-row p {
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      color: #fff; }
+    #darkTheme .container .first-row input {
+      margin-left: 30%;
+      margin-bottom: 10%;
+      width: 159px;
+      height: 79px;
+      border-radius: 12px;
+      background-color: #0d1424;
+      border: 1px solid #505a71;
+      font-size: 32px;
+      color: #fff;
+      text-align: center; }
+    #darkTheme .container .first-row button {
+      width: 256px;
+      height: 94px;
+      border-radius: 14px;
+      background-color: #e9b64f;
+      margin-left: 20%;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: #151b29; }
+  #darkTheme .container .second-row {
+    width: 421px;
+    height: 762px;
+    border-radius: 33px;
+    background-color: #151b29;
+    margin-left: 10%;
+    padding-left: 5%; }
+    #darkTheme .container .second-row h4 {
+      width: 248px;
+      height: 40px;
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 700; }
+    #darkTheme .container .second-row p {
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 700;
+      line-height: 10px; }
+    #darkTheme .container .second-row .info {
+      margin-top: 50px; }
+      #darkTheme .container .second-row .info div {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 20px; }
+        #darkTheme .container .second-row .info div label {
+          color: #fff;
+          font-size: 18px; }
+        #darkTheme .container .second-row .info div input {
+          width: 313px;
+          height: 79px;
+          border-radius: 12px;
+          background-color: #0d1424;
+          border: 1px solid #505a71;
+          font-size: 20px;
+          padding: 10px 20px; }
+    #darkTheme .container .second-row button {
+      width: 311px;
+      height: 94px;
+      border-radius: 14px;
+      background-color: #e9b64f;
+      font-size: 20px;
+      font-weight: bold;
+      color: #151b29;
+      border: none;
+      margin-left: 5%; }
+
+/*# sourceMappingURL=main.css.map */
