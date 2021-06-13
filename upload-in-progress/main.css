@@ -1,0 +1,46 @@
+body {
+  background-color: #f4f5fb;
+  font-family: 'Nunito Sans', sans-serif; }
+
+#uploadInProgress {
+  width: 484px;
+  height: 619px;
+  border-radius: 25px;
+  filter: drop-shadow(0px 20px 19px rgba(191, 199, 240, 0.3));
+  background-color: #ffffff;
+  margin-left: 35%;
+  margin-top: 5%; }
+  #uploadInProgress .container .row {
+    padding-top: 50px; }
+    #uploadInProgress .container .row .top {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px; }
+      #uploadInProgress .container .row .top span {
+        font-size: 32px;
+        font-weight: bold; }
+    #uploadInProgress .container .row .content {
+      margin-bottom: 40px;
+      margin-right: 50px; }
+      #uploadInProgress .container .row .content ul {
+        list-style-type: none; }
+        #uploadInProgress .container .row .content ul li {
+          display: flex;
+          justify-content: space-between; }
+          #uploadInProgress .container .row .content ul li .left-content span {
+            margin-left: 10px; }
+          #uploadInProgress .container .row .content ul li .progress .fas {
+            color: green; }
+    #uploadInProgress .container .row .view-btn {
+      margin-left: 15%; }
+      #uploadInProgress .container .row .view-btn button {
+        width: 344px;
+        height: 71px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        border: 6px solid #dcdff4;
+        font-size: 18px;
+        color: #1a192a;
+        font-weight: 700; }
+
+/*# sourceMappingURL=main.css.map */
