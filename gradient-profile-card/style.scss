@@ -1,0 +1,145 @@
+$font-color: #0a0a14;
+
+body {
+  // background: rgb(119, 62, 204);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(119, 62, 204, 1) 0%,
+  //   rgba(196, 255, 244, 1) 0%,
+  //   rgba(149, 212, 255, 1) 100%
+  // );
+  height: 700px;
+  background-image: linear-gradient(180deg, #c4fff4 0%, #95d4ff 100%);}
+
+#gradientCard {
+  .container {
+    margin-left: 20%;
+    margin-top: 5%;
+    .row {
+      width: 826px;
+      height: 511px;
+      border-radius: 58px;
+      background-color: rgba(255, 255, 255, 0.3215686274509804);
+      border: 1px solid #ffffff;
+      .content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 785px;
+        height: 511px;
+        border-radius: 58px;
+        background-color: rgba(255, 255, 255, 0.4196078431372549);
+        .profile {
+          img {
+            border-radius: 50%;
+          }
+        }
+        .content--text {
+          margin-left: 10%;
+          .profile-info {
+            .profile-name {
+              font-size: 32px;
+              color: $font-color;
+              font-weight: 700;
+              font-family: "Merriweather", serif;
+              line-height: 0px;
+            }
+            .profile-username {
+              font-size: 18px;
+              font-family: "Merriweather", serif;
+              color: $font-color;
+            }
+            .profile-info-desc {
+              width: 441px;
+              height: 50px;
+              font-size: 20px;
+              font-weight: 500;
+              font-family: "IBM Plex Sans";
+              color: $font-color;
+            }
+          }
+          .statistics {
+            display: flex;
+            flex-direction: row;
+            .view {
+              margin-right: 10%;
+              .view--sum {
+                font-size: 20px;
+                color: $font-color;
+                font-weight: 700;
+                font-family: "IBM Plex Sans";
+              }
+              .view--text {
+                line-height: 0px;
+                font-size: 16px;
+                color: #0a0a14;
+                font-weight: 500;
+                font-family: "IBM Plex Sans";
+              }
+            }
+            .rank {
+              margin-right: 10%;
+              .rank--sum {
+                font-size: 20px;
+                color: $font-color;
+                font-weight: 700;
+                font-family: "IBM Plex Sans";
+              }
+              .rank--text {
+                line-height: 0px;
+                font-size: 16px;
+                color: #0a0a14;
+                font-weight: 500;
+                font-family: "IBM Plex Sans";
+              }
+            }
+            .downloads {
+              margin-right: 10%;
+              .downloads--sum {
+                font-size: 20px;
+                color: $font-color;
+                font-weight: 700;
+                font-family: "IBM Plex Sans";
+              }
+              .downloads--text {
+                line-height: 0px;
+                font-size: 16px;
+                color: #0a0a14;
+                font-weight: 500;
+                font-family: "IBM Plex Sans";
+              }
+            }
+          }
+          .buttons {
+            margin-top: 10%;
+            .follow--btn {
+              width: 168px;
+              height: 60px;
+              border-radius: 9px;
+              background-color: #0a0a14;
+              border: none;
+              font-size: 20px;
+              color: #ffffff;
+              font-weight: 700;
+              font-family: "IBM Plex Sans";
+            }
+            .view--btn {
+              width: 168px;
+              height: 60px;
+              border-radius: 9px;
+              background-color: #ffffff;
+              border: 1px solid #0a0a14;
+              font-size: 20px;
+              color: #0a0a14;
+              font-weight: 700;
+              font-family: "IBM Plex Sans";
+            }
+          }
+        }
+      }
+    }
+  }
+}

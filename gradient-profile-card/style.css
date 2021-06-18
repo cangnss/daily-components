@@ -1,0 +1,111 @@
+body {
+  height: 700px;
+  background-image: linear-gradient(180deg, #c4fff4 0%, #95d4ff 100%); }
+
+#gradientCard .container {
+  margin-left: 20%;
+  margin-top: 5%; }
+  #gradientCard .container .row {
+    width: 826px;
+    height: 511px;
+    border-radius: 58px;
+    background-color: rgba(255, 255, 255, 0.3215686275);
+    border: 1px solid #ffffff; }
+    #gradientCard .container .row .content {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding-left: 5%;
+      padding-top: 5%;
+      width: 785px;
+      height: 511px;
+      border-radius: 58px;
+      background-color: rgba(255, 255, 255, 0.4196078431); }
+      #gradientCard .container .row .content .profile img {
+        border-radius: 50%; }
+      #gradientCard .container .row .content .content--text {
+        margin-left: 10%; }
+        #gradientCard .container .row .content .content--text .profile-info .profile-name {
+          font-size: 32px;
+          color: #0a0a14;
+          font-weight: 700;
+          font-family: "Merriweather", serif;
+          line-height: 0px; }
+        #gradientCard .container .row .content .content--text .profile-info .profile-username {
+          font-size: 18px;
+          font-family: "Merriweather", serif;
+          color: #0a0a14; }
+        #gradientCard .container .row .content .content--text .profile-info .profile-info-desc {
+          width: 441px;
+          height: 50px;
+          font-size: 20px;
+          font-weight: 500;
+          font-family: "IBM Plex Sans";
+          color: #0a0a14; }
+        #gradientCard .container .row .content .content--text .statistics {
+          display: flex;
+          flex-direction: row; }
+          #gradientCard .container .row .content .content--text .statistics .view {
+            margin-right: 10%; }
+            #gradientCard .container .row .content .content--text .statistics .view .view--sum {
+              font-size: 20px;
+              color: #0a0a14;
+              font-weight: 700;
+              font-family: "IBM Plex Sans"; }
+            #gradientCard .container .row .content .content--text .statistics .view .view--text {
+              line-height: 0px;
+              font-size: 16px;
+              color: #0a0a14;
+              font-weight: 500;
+              font-family: "IBM Plex Sans"; }
+          #gradientCard .container .row .content .content--text .statistics .rank {
+            margin-right: 10%; }
+            #gradientCard .container .row .content .content--text .statistics .rank .rank--sum {
+              font-size: 20px;
+              color: #0a0a14;
+              font-weight: 700;
+              font-family: "IBM Plex Sans"; }
+            #gradientCard .container .row .content .content--text .statistics .rank .rank--text {
+              line-height: 0px;
+              font-size: 16px;
+              color: #0a0a14;
+              font-weight: 500;
+              font-family: "IBM Plex Sans"; }
+          #gradientCard .container .row .content .content--text .statistics .downloads {
+            margin-right: 10%; }
+            #gradientCard .container .row .content .content--text .statistics .downloads .downloads--sum {
+              font-size: 20px;
+              color: #0a0a14;
+              font-weight: 700;
+              font-family: "IBM Plex Sans"; }
+            #gradientCard .container .row .content .content--text .statistics .downloads .downloads--text {
+              line-height: 0px;
+              font-size: 16px;
+              color: #0a0a14;
+              font-weight: 500;
+              font-family: "IBM Plex Sans"; }
+        #gradientCard .container .row .content .content--text .buttons {
+          margin-top: 10%; }
+          #gradientCard .container .row .content .content--text .buttons .follow--btn {
+            width: 168px;
+            height: 60px;
+            border-radius: 9px;
+            background-color: #0a0a14;
+            border: none;
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "IBM Plex Sans"; }
+          #gradientCard .container .row .content .content--text .buttons .view--btn {
+            width: 168px;
+            height: 60px;
+            border-radius: 9px;
+            background-color: #ffffff;
+            border: 1px solid #0a0a14;
+            font-size: 20px;
+            color: #0a0a14;
+            font-weight: 700;
+            font-family: "IBM Plex Sans"; }
+
+/*# sourceMappingURL=style.css.map */
