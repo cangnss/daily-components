@@ -1,0 +1,61 @@
+body {
+  background: rgba(255, 106, 149, 0.1); }
+
+.col {
+  z-index: -1;
+  background-color: #FF6A95;
+  border-radius: 10px;
+  width: 404px;
+  height: 992px;
+  position: absolute;
+  left: 200px; }
+
+.first-row {
+  width: 583px;
+  height: 314px;
+  background-color: white;
+  border-radius: 10px; }
+  .first-row .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px; }
+    .first-row .top .profile-img img {
+      border-radius: 50%;
+      width: 84px;
+      height: 84px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed; }
+    .first-row .top .personal-info {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column; }
+      .first-row .top .personal-info .personal-name {
+        height: 0px;
+        font-size: 24px;
+        color: #202142;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 14px; }
+      .first-row .top .personal-info .personal-job {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal; }
+    .first-row .top .follow-btn {
+      margin-top: 25px;
+      color: white;
+      cursor: pointer;
+      width: 145px;
+      height: 54px;
+      border-radius: 10px;
+      background-color: #202142;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .first-row .top .follow-btn span {
+        margin-left: 15px;
+        font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */
