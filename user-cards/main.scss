@@ -68,4 +68,82 @@ background: rgba(255, 106, 149, 0.1);
             }
         }
     }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        margin:20px 35px;
+        div{
+            width: 165px;
+            height: 124px;
+            border-radius: $general-radius;
+            margin-right: 10px;
+        }
+        
+    }
+}
+.second-row{
+    width: 1170px;
+    height: 222px;
+    background-color: white;
+    border-radius: $general-radius;
+    border-color: black;
+    border: 1px solid black;
+    .top{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 40px;
+        .profile-img{
+            img{
+                width: 84px;
+                height: 84px;
+                border-radius: 50%;
+            }
+        }
+        .personal-info{
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            .personal{
+                margin-bottom: 10px;
+                .personal-name{
+                    font-size: 24px;
+                    font-weight: 900;
+                    font-style: normal;
+                    line-height: 14px;
+                }
+                .personal-job{
+                    font-size: 14px;
+    
+                }    
+            }
+            .following-btn{
+                width: 170px;
+                height: 54px;
+                border-radius: $general-radius;
+                border: 1px solid #202142;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span{
+                    font-size: 18px;
+                    font-weight: 900;
+
+                    margin-left: 15px;
+                }
+            }
+        }
+        .other-images{
+            display: flex;
+            flex-direction: row;
+            margin-left: 100px;
+            div{
+                width: 216px;
+                height: 162px;
+                margin-right: 10px;
+                border-radius: $general-radius;
+            }
+        }
+    }
 }

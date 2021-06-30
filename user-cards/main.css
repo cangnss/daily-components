@@ -57,5 +57,65 @@ body {
       .first-row .top .follow-btn span {
         margin-left: 15px;
         font-size: 18px; }
+  .first-row .bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 35px; }
+    .first-row .bottom div {
+      width: 165px;
+      height: 124px;
+      border-radius: 10px;
+      margin-right: 10px; }
+
+.second-row {
+  width: 1170px;
+  height: 222px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+  border: 1px solid black; }
+  .second-row .top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 40px; }
+    .second-row .top .profile-img img {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%; }
+    .second-row .top .personal-info {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column; }
+      .second-row .top .personal-info .personal {
+        margin-bottom: 10px; }
+        .second-row .top .personal-info .personal .personal-name {
+          font-size: 24px;
+          font-weight: 900;
+          font-style: normal;
+          line-height: 14px; }
+        .second-row .top .personal-info .personal .personal-job {
+          font-size: 14px; }
+      .second-row .top .personal-info .following-btn {
+        width: 170px;
+        height: 54px;
+        border-radius: 10px;
+        border: 1px solid #202142;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .second-row .top .personal-info .following-btn span {
+          font-size: 18px;
+          font-weight: 900;
+          margin-left: 15px; }
+    .second-row .top .other-images {
+      display: flex;
+      flex-direction: row;
+      margin-left: 100px; }
+      .second-row .top .other-images div {
+        width: 216px;
+        height: 162px;
+        margin-right: 10px;
+        border-radius: 10px; }
 
 /*# sourceMappingURL=main.css.map */
