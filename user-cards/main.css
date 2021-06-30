@@ -1,16 +1,21 @@
 body {
-  background: rgba(255, 106, 149, 0.1); }
+  background: rgba(255, 106, 149, 0.1);
+  font-family: 'Montserrat', sans-serif; }
 
 .col {
   z-index: -1;
-  background-color: #FF6A95;
+  background-color: #ff6a95;
   border-radius: 10px;
   width: 404px;
-  height: 992px;
+  height: 592px;
   position: absolute;
-  left: 200px; }
+  left: 470px;
+  top: 38px; }
 
 .first-row {
+  position: absolute;
+  left: 656px;
+  top: 134px;
   width: 583px;
   height: 314px;
   background-color: white;
@@ -68,12 +73,14 @@ body {
       margin-right: 10px; }
 
 .second-row {
+  position: absolute;
+  top: 500px;
+  left: 100px;
   width: 1170px;
   height: 222px;
   background-color: white;
   border-radius: 10px;
-  border-color: black;
-  border: 1px solid black; }
+  box-shadow: 2px 5px #202142; }
   .second-row .top {
     display: flex;
     flex-direction: row;
