@@ -1,0 +1,85 @@
+$merriweatherFont: "Merriweather", serif;
+
+body {
+  background-color: #f5f5fd;
+  font-family: $merriweatherFont;
+  .container {
+    width: 606px;
+    height: 660px;
+    background-color: white;
+    box-shadow: 0px 24px 35px -15px rgba(100, 93, 152, 0.17);
+    border-radius: 25px;
+    position: absolute;
+    left: 430px;
+    top: 50px;
+    .row {
+      display: flex;
+      flex-direction: column;
+      .times {
+        width: 41px;
+        height: 41px;
+        border: 1px solid #e6e6e6;
+        border-radius: 50%;
+        align-self: flex-end;
+        margin-right: 15px;
+        margin-top: 15px;
+        i {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 13px;
+          color: #6c6b8a;
+        }
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $merriweatherFont;
+      }
+      .contact-form {
+        align-self: center;
+        div {
+          margin: 20px;
+          input {
+            border: none;
+            border-bottom: 3px solid #6c6b8a;
+            color: #6c6b8a;
+            font-size: 18px;
+            font-family: $merriweatherFont;
+          }
+        }
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+          }
+        }
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+      }
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .submit-btn {
+          width: 475px;
+          height: 72px;
+          border-radius: 15px;
+          background-color: #151534;
+          color: white;
+          border: none;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
