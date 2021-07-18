@@ -1,0 +1,101 @@
+body {
+  background-color: #f5f7fc;
+  .container {
+    width: 792px;
+    height: 472px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 32px 27.5px rgba(154, 174, 224, 0.41));
+    background-color: #ffffff;
+    position: absolute;
+    left: 380px;
+    top: 70px;
+    .row {
+      .title-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .path {
+        text-align: left;
+        margin-left: 29%;
+        margin-bottom: 20px;
+        span {
+          font-size: 19px;
+          &:nth-child(2n) {
+            font-weight: bold;
+            font-size: 30px;
+          }
+        }
+      }
+      .content {
+        width: 365px;
+        height: 90px;
+        border-radius: 5px;
+        background-color: #f5f7fc;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 30px;
+        padding-top: 5px;
+        margin-left: 29%;
+      }
+      .subtitle {
+        margin-left: 29%;
+        h3 {
+          font-weight: bold;
+          font-size: 22px;
+        }
+      }
+      .choice {
+        display: flex;
+        margin-bottom: 30px;
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          border: 1px solid #c3cada;
+          border-radius: 5px;
+          padding-top: 20px;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 200px;
+          margin-left: 29%;
+          display: flex;
+          justify-content: space-between;
+          font-size: 18px;
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+          }
+        }
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        .language {
+            margin-left: 10px;
+          .language-btn {
+            width: 237px;
+            height: 63px;
+            border-radius: 5px;
+            background-color: #3a32e7;
+            border: none;
+            color: white;
+            font-size: 18px;
+          }
+        }
+      }
+      .last-modified{
+          margin-left: 29%;
+          font-size: 18px;
+          span{
+              font-weight: bold;
+              color: gray;
+          }
+      }
+    }
+  }
+}
