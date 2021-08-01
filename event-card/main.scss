@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(299.25deg, #D6D6DC -0.28%, #F6F6FB 100%);
+    font-family: 'Merriweather', serif;
+    .container{
+        width: 588px;
+        height: 461px;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 5px 5px;
+        position: absolute;
+        left: 350px;
+        top:100px;
+        .row{
+            background-color: #F5F5FD;
+            width: auto;
+            height: 95%;
+            border-radius: 15px;
+            padding:10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .title{
+                h3{
+                    color: #13123C;
+                }
+            }
+            .content{
+                display: flex;
+                color: #13123C;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 50px;
+                .start-time{
+                    .clock{
+                        font-size: 22px;
+                    }
+                }
+                .end-time{
+                    margin-left: 55px;
+                    .clock{
+                        font-size: 22px;
+                    }
+                }
+            }
+            .actions{
+                display: flex;
+                .register{
+                    .register-btn{
+                        font-weight:bold;
+                        font-size:18px;
+                    width:224px;
+                    height: 63px;
+                    background-color: #0F0E2F;
+                    color: #fff;
+                    border-radius: 5px;
+                    border:none;
+                }
+                }
+                .add-calendar{
+                    margin-left:5px;
+                    .add-calendar-btn{
+                        font-weight:bold;
+                        font-size:18px;
+                        width:224px;
+                        height: 63px;
+                        border: 1px solid #0F0E2F;
+                        color:#0F0E2F;
+                        border-radius:5px;
+                    }
+                }
+            }
+        }
+    }
+}
